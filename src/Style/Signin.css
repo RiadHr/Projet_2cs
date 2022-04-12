@@ -1,0 +1,197 @@
+
+.Container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.containerlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    /* width: 80%; */
+    /* height: 50%; */
+    background-color: #fff;
+    /* border: 2px solid black; */
+}
+
+
+.containerlogo div{
+    display: flex;
+    flex-grow: 1;
+
+    /* border: 2px solid black; */
+}
+
+.containerlogo p{
+    display: flex;
+    flex-grow: 1;
+    font-size: 1.2rem;
+    color: #00B2FF
+}
+
+.containerlogo span{
+    color: #3CDD88;
+}
+
+.containersignin{
+    height: 100vh;
+    width: 50%;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    background-color: #fff;
+  
+    /* border: 2px solid black; */
+}
+
+
+/* ============================================= logo section ==================================================================================== */
+/* .logobox1{
+    padding: 1rem;
+    display: flex;
+    /* border: 2px solid red;  
+} */
+
+
+/* ============================================  container of form ============================================================================ */
+.Formbox1{
+    flex-grow: 1;
+    width: 80%;
+    /* border: 2px solid yellow; */
+}
+
+
+.Formbox1 form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+}
+
+
+/* ==========================================  label section ================================================================================= */
+.labelbox1{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    /* border: 2px solid yellow; */
+}
+
+
+.labelbox1 label{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+
+.labelbox2{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    /* border: 2px solid yellow; */
+}
+
+
+/* ============================================== click link section ========================================================================= */
+.labelbox2 .Link1{
+    font-weight:900 ;
+    text-decoration: none;
+    color: #000;
+    opacity: 1;
+    transition:opacity ease-in-out 0.5s;
+}
+
+
+.labelbox2 .Link1:hover{
+    opacity: 0.5;
+}
+
+
+/* ================================================ input section =========================================================================== */
+.inputbox1{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+
+.inputbox1 input{
+    height: 100%;
+    width:100%;
+    border: transparent;
+    border-radius: 20px;
+}
+
+
+/*===================================================== submit button ===================================================================*/
+.buttonbox1{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+}
+
+
+.buttonbox1 button{
+    height: 80%;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    background-color: #00B2FF;
+    border-radius: 2px;
+    border: transparent;
+    /* border: 2px solid #000;     */
+}
+
+
+.buttonbox1 button:hover{
+    color: #000;
+    background-color: #3CDD88;
+}
+
+
+/* ======================================== section responsive ============================================================ */
+@media (max-width:1000px){
+   /* .containersignin{
+       width:100%;
+   } */
+
+    .buttonbox1 button{
+        width: 40%;
+        font-size: 1rem;
+        /* border: 2px solisd red;   */
+    }
+}
+
+
+@media (max-width:800px){
+    .containersignin{
+        width:100%;
+    } 
+
+    .buttonbox1 button{
+        width: 30%;
+        border: transparent;
+        /* border: 2px solid #fff; */
+    }
+ }
